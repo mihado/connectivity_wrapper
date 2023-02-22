@@ -7,11 +7,11 @@ import 'package:flutter/material.dart';
 /// - https://www.google.com/search?q=dns+server+port
 const int DEFAULT_PORT = 53;
 
-/// Default timeout is 10 seconds.
+/// Default timeout is 3 seconds.
 ///
 /// Timeout is the number of seconds before a request is dropped
 /// and an address is considered unreachable
-const Duration DEFAULT_TIMEOUT = const Duration(seconds: 5);
+const Duration DEFAULT_TIMEOUT = const Duration(seconds: 3);
 
 /// Default interval is 2 seconds
 ///
